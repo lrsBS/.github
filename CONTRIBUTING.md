@@ -16,4 +16,5 @@
 | `task` | Concrete piece of work |
 | `docs` | Documentation |
 | `prio:high` / `prio:med` / `prio:low` | Priority |
+| `dependencies` | Dependency updates (Dependabot) |
 | `status:blocked` | Waiting on something else |
