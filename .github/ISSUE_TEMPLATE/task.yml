@@ -1,0 +1,24 @@
+name: 📋 Aufgabe
+description: Konkrete Arbeit, die erledigt werden muss
+labels: ["task"]
+body:
+  - type: textarea
+    id: ziel
+    attributes:
+      label: Ziel
+      description: Was soll am Ende erreicht sein?
+    validations:
+      required: true
+  - type: textarea
+    id: todos
+    attributes:
+      label: Teilaufgaben
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: akzeptanz
+    attributes:
+      label: Fertig, wenn ...
+      description: Akzeptanzkriterien

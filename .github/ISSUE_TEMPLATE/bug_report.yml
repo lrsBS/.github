@@ -1,0 +1,38 @@
+name: 🐛 Bug melden
+description: Etwas funktioniert nicht wie erwartet
+labels: ["bug"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Was ist passiert?
+      description: Kurze Beschreibung des Fehlers
+    validations:
+      required: true
+  - type: textarea
+    id: reproduktion
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: umgebung
+    attributes:
+      label: Umgebung
+      description: OS, Version, relevante Konfiguration
+      render: text
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Fehlermeldungen
+      render: shell

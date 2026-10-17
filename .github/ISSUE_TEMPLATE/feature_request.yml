@@ -1,0 +1,29 @@
+name: ✨ Feature vorschlagen
+description: Idee für eine neue Funktion oder Verbesserung
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: loesung
+    attributes:
+      label: Vorgeschlagene Lösung
+    validations:
+      required: true
+  - type: textarea
+    id: alternativen
+    attributes:
+      label: Betrachtete Alternativen
+  - type: dropdown
+    id: prio
+    attributes:
+      label: Priorität
+      options:
+        - niedrig
+        - mittel
+        - hoch
+      default: 1
