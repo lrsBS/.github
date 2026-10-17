@@ -1,24 +1,31 @@
-name: 📋 Aufgabe
-description: Konkrete Arbeit, die erledigt werden muss
+name: 📋 Task
+description: A concrete piece of work that needs to be done
 labels: ["task"]
 body:
   - type: textarea
-    id: ziel
+    id: goal
     attributes:
-      label: Ziel
-      description: Was soll am Ende erreicht sein?
+      label: Goal
+      description: What should be achieved when this task is done?
+      placeholder: |
+        Set up ... so that ...
     validations:
       required: true
   - type: textarea
-    id: todos
+    id: subtasks
     attributes:
-      label: Teilaufgaben
-      value: |
-        - [ ] 
+      label: Subtasks
+      placeholder: |
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
     validations:
       required: true
   - type: textarea
-    id: akzeptanz
+    id: acceptance
     attributes:
-      label: Fertig, wenn ...
-      description: Akzeptanzkriterien
+      label: Acceptance criteria
+      description: The task is done when ...
+      placeholder: |
+        - [ ] Tests pass
+        - [ ] Documentation updated

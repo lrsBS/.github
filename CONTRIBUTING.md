@@ -1,19 +1,19 @@
-# Mitwirken
+# Contributing
 
-## Ablauf
+## Workflow
 
-1. Issue anlegen (oder ein bestehendes wählen)
-2. Branch von `main` erstellen: `feat/<kurzname>`, `fix/<kurzname>` oder `chore/<kurzname>`
-3. Commits nach [Conventional Commits](https://www.conventionalcommits.org/de/): `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`
-4. Pull Request gegen `main` öffnen und das Issue verlinken (`Closes #123`)
+1. Open an issue (or pick an existing one)
+2. Create a branch from `main`: `feat/<name>`, `fix/<name>` or `chore/<name>`
+3. Write commits following [Conventional Commits](https://www.conventionalcommits.org/): `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`
+4. Open a pull request against `main` and link the issue (`Closes #123`)
 
 ## Labels
 
-| Label | Bedeutung |
+| Label | Meaning |
 |---|---|
-| `bug` | Fehler |
-| `feature` | Neue Funktion |
-| `task` | Konkrete Aufgabe |
-| `docs` | Dokumentation |
-| `prio:high` / `prio:med` / `prio:low` | Priorität |
-| `status:blocked` | Wartet auf etwas anderes |
+| `bug` | Something is not working |
+| `feature` | New feature or improvement |
+| `task` | Concrete piece of work |
+| `docs` | Documentation |
+| `prio:high` / `prio:med` / `prio:low` | Priority |
+| `status:blocked` | Waiting on something else |

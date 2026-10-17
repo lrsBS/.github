@@ -1,4 +1,4 @@
-# Sicherheit
+# Security Policy
 
-Bitte Sicherheitslücken **nicht** als öffentliches Issue melden, sondern per E-Mail an den Maintainer
-oder über „Report a vulnerability“ im Security-Tab des Repositories.
+Please do **not** report security vulnerabilities through public issues.
+Instead, contact the maintainer by email or use "Report a vulnerability" in the repository's Security tab.

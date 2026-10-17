@@ -1,12 +1,12 @@
-## Was ändert sich?
+## What does this change?
 
-<!-- Kurze Zusammenfassung -->
+<!-- Short summary of the change -->
 
-## Warum?
+## Why?
 
 Closes #
 
-## Checkliste
+## Checklist
 
-- [ ] Getestet
-- [ ] Doku / README / CHANGELOG aktualisiert
+- [ ] Tested
+- [ ] Docs / README / CHANGELOG updated

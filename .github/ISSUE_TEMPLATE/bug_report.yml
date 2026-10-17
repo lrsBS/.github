@@ -1,38 +1,50 @@
-name: 🐛 Bug melden
-description: Etwas funktioniert nicht wie erwartet
+name: 🐛 Bug report
+description: Something is not working as expected
 labels: ["bug"]
 body:
   - type: textarea
-    id: beschreibung
+    id: description
     attributes:
-      label: Was ist passiert?
-      description: Kurze Beschreibung des Fehlers
-    validations:
-      required: true
-  - type: textarea
-    id: reproduktion
-    attributes:
-      label: Schritte zum Reproduzieren
+      label: What happened?
+      description: A clear and concise description of the bug.
       placeholder: |
-        1. ...
-        2. ...
-        3. ...
+        When I run `...` the program crashes with ...
     validations:
       required: true
   - type: textarea
-    id: erwartet
+    id: steps
     attributes:
-      label: Erwartetes Verhalten
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Run '...'
+        3. See error
     validations:
       required: true
   - type: textarea
-    id: umgebung
+    id: expected
     attributes:
-      label: Umgebung
-      description: OS, Version, relevante Konfiguration
+      label: Expected behavior
+      placeholder: |
+        I expected ... to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, version and relevant configuration.
+      placeholder: |
+        - OS: Arch Linux
+        - Version: 1.2.3
+        - Config: ...
       render: text
   - type: textarea
     id: logs
     attributes:
-      label: Logs / Fehlermeldungen
+      label: Logs / error messages
+      description: Paste relevant output here. It will be formatted as code automatically.
+      placeholder: |
+        Traceback (most recent call last):
+          ...
       render: shell

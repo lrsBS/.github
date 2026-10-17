@@ -1,29 +1,38 @@
-name: ✨ Feature vorschlagen
-description: Idee für eine neue Funktion oder Verbesserung
+name: ✨ Feature request
+description: Suggest a new feature or improvement
 labels: ["feature"]
 body:
   - type: textarea
     id: problem
     attributes:
-      label: Welches Problem soll gelöst werden?
+      label: Problem
+      description: What problem does this feature solve?
+      placeholder: |
+        As a <user>, I want <goal> so that <benefit>.
+        Currently I have to ...
     validations:
       required: true
   - type: textarea
-    id: loesung
+    id: solution
     attributes:
-      label: Vorgeschlagene Lösung
+      label: Proposed solution
+      placeholder: |
+        Add a `--flag` option that ...
     validations:
       required: true
   - type: textarea
-    id: alternativen
+    id: alternatives
     attributes:
-      label: Betrachtete Alternativen
+      label: Alternatives considered
+      placeholder: |
+        - Alternative A: ... (rejected because ...)
+        - Alternative B: ...
   - type: dropdown
-    id: prio
+    id: priority
     attributes:
-      label: Priorität
+      label: Priority
       options:
-        - niedrig
-        - mittel
-        - hoch
+        - low
+        - medium
+        - high
       default: 1
